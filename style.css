@@ -1,19 +1,39 @@
-   
-    #titulo {
-        color: brown;
-        text-align: center;
-    }
-
     body{
         background-color: beige;
         font-size: 20px;
+        padding: 3%;
         
+               
+        }
+
+    #minha-foto{
+      float: left;  
+      height: 280px;
+      padding: 10px;
+      background-color: black;
     }
 
-    #imagem {
+    .image-container{
+      height: 300px;  
+      position: relative;
+      
+    }
+    
+    #nome{
         text-align: center;
     }
 
-    .lista {
-        color: gray
-        }
+    #descricao{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        left: 30%;
+
+    }
+    
+    
+    ol li:nth-child(odd) {
+       background-color: aquamarine; 
+              
+    }
+
